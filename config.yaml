@@ -1,0 +1,11 @@
+loop_interval_seconds: 10
+benchmark_ticker: SPY
+var_confidence: 0.95
+var_method: historical
+rules:
+  max_weight_per_asset: 0.35
+  stop_loss_pct_from_cost: 0.10
+  max_portfolio_drawdown: 0.15
+provider:
+  type: mock
+  real_api_key_env_var: MARKET_DATA_API_KEY
