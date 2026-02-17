@@ -1,0 +1,5 @@
+ticker,quantity,avg_cost,currency,asset_class
+AAPL,20,165.00,USD,equity
+MSFT,12,300.00,USD,equity
+TLT,30,95.00,USD,bond
+GLD,10,180.00,USD,commodity
